@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Class02.Listener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/tamim/IdeaProjects/TesNGBatch17/src/test/java/Class01/testNGAnnotations.java">
+        <classes>
+            <class name="Class01.Assertions"></class>
+            <class name="Class01.softAssertion"></class>
+        </classes>
+    </test>
+</suite><!--in listener class we adding the code between suit in Testng was between test-->

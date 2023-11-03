@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="An example of parallel Tamim.">
+    <test verbose="2" preserve-order="true"
+          name="parallelTest" parallel="classes" thread-count="2">
+        <classes>
+            <class name="Class01.Assertions"></class>
+            <class name="Class01.softAssertion"></class><!-- in parallel or computer everything run sequentially -->
+        </classes>
+
+    </test>
+</suite>

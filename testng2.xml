@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/tamim/IdeaProjects/TesNGBatch17/src/test/java/Class01/enableDisable.java">
+        <classes>
+            <class name="Class01.testNGAnnotations">
+                <methods>
+                    <include name="aTestCase"></include><!--method is the child of the classes. Tamim-->
+
+                </methods>
+            </class>
+            <class name="Class01.Assertions">
+                <methods>
+                    <include name="login"><!--if u run a particular class and
+          it has a @BeforeMethod class,that run too even if you did not mention
+          The purpose of creating xml is to control execution, which specific class we want to execute. -->
+
+                    </include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
